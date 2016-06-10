@@ -1,0 +1,49 @@
+{
+  "name": "trails-lambda-example",
+  "version": "0.0.0",
+  "description": "Example app using aws lambda",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "ryan quinn",
+    "email": "ryanwilliamquinn@gmail.com",
+    "url": "https://github.com/trailsjs"
+  },
+  "main": "index.js",
+  "keywords": [
+    "",
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.3.18",
+    "trailpack-core": "^1.0.0-beta-3",
+    "trailpack-footprints": "^1.0.1",
+    "trailpack-hapi": "^1.0.2",
+    "trailpack-knex": "^0.5.11",
+    "trailpack-repl": "^1.0.0-beta-3",
+    "trailpack-router": "^1.0.0-beta-4",
+    "trails": "^1.0.0-beta-1",
+    "trails-controller": "^1.0.0-beta-2",
+    "trails-model": "^1.0.0-beta-2",
+    "trails-policy": "^1.0.1",
+    "trails-service": "1.0.0-beta-2",
+    "winston": "^2.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.8",
+    "eslint-config-trails": "latest",
+    "mocha": "^2.4",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "ryanwilliamquinn/trails-lambda-example",
+  "license": "Apache-2.0"
+}
